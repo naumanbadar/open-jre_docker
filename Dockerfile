@@ -7,4 +7,5 @@ RUN echo Europe/Stockholm | tee /etc/timezone && dpkg-reconfigure --frontend non
 
 # some usefull command aliases
 && echo "alias ll='ls -la'" >> /root/.bashrc \
-&& echo "alias l=ls" >> /root/.bashrc \
+&& echo "alias l=ls" >> /root/.bashrc
+
